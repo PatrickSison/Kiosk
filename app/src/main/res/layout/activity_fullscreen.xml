@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="vertical"
+    android:id="@+id/fullscreen_content"
     tools:context="com.patrick.a434.kiosk8.FullscreenActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -16,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_above="@id/big_buttons">
+
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
