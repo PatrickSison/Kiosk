@@ -54,6 +54,30 @@ public class FullscreenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        final Button mPerson = (Button) findViewById(R.id.button_person);
+        mPerson.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                startActivity(intent);
+            }
+        });
+        final Button mPlace = (Button) findViewById(R.id.button_place);
+        mPlace.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                startActivity(intent);
+            }
+        });
+        final Button mWorkspace = (Button) findViewById(R.id.button_workspace);
+        mWorkspace.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
