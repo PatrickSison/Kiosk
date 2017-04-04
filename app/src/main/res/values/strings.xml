@@ -6,4 +6,9 @@
     <string name="title_activity_informational">Informational</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab1">A striking presence at the corner of Baltimore Avenue and Campus Drive, the Brendan Iribe Center will be a hub for technology at the heart of a new innovation district, among high-tech companies, government agencies and institutional colleagues.
+Bringing together the university\'s top-ranked Department of Computer Science and its renowned Institute for Advanced Computer Studies (UMIACS), the building\'s six floors of specialized labs support groundbreaking research in virtual and augmented reality, artificial intelligence, robotics, computer vision, algorithms, programming languages and systems.
+This building houses nationally recognized centers of interdisciplinary research in cybersecurity, computational biology, quantum computing, data science and other fast-growing tech fields. The advances developed here help create a virtuous cycle of innovation, establishing Maryland tech companies and adding to the state\'s economic development.
+Students and faculty alike experiment and create in open work areas and makerspaces filled with natural light. Flexible classrooms promote teamwork and active learning. And welcoming common areas - including an expansive green space along Baltimore Avenue - extend the collaborative environment to the broader community.
+</string>
 </resources>
