@@ -51,20 +51,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find:"
+            android:text="What are you trying to find?"
             android:textColor="#ffffff"
-            android:background="#c8102e"
-            android:textSize="20sp"
-            android:layout_weight="1"
+            android:background="#444444"
+            android:textSize="24sp"
+            android:padding="10sp"
+            android:layout_marginBottom="20dp"
             android:layout_above="@+id/button_person"
-            android:layout_alignStart="@+id/button_person" />
+            android:layout_centerHorizontal="true" />
 
         <Button
             android:id="@+id/button_person"
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="#ffffff"
+            android:background="#c8102e"
+            android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:text="Person"
             android:layout_above="@+id/button_place"
@@ -80,7 +82,9 @@
             android:layout_marginBottom="50sp"
             android:layout_centerVertical="true"
             android:layout_height="wrap_content"
-            android:textSize="50sp"
+            android:textSize="48sp"
+            android:background="#c8102e"
+            android:textColor="#ffffff"
             android:text="Place"
             />
 
@@ -89,12 +93,13 @@
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="#ffffff"
             android:layout_height="wrap_content"
             android:text="Workspace"
             android:layout_below="@+id/button_place"
             android:textSize="48sp"
             android:layout_marginBottom="0dp"
+            android:background="#c8102e"
+            android:textColor="#ffffff"
             />
     </RelativeLayout>
 
