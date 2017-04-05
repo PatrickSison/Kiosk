@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/back"
     android:orientation="vertical"
     android:id="@+id/fullscreen_content"
     tools:context="com.patrick.a434.kiosk8.FullscreenActivity">
@@ -16,9 +16,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Find:"
-            android:textColor="#000000"
+            android:textColor="#ffffff"
             android:textSize="30sp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/information"
@@ -35,12 +35,12 @@
 
     <LinearLayout android:layout_width="match_parent"
         android:id="@+id/big_buttons"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:fitsSystemWindows="true"
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_weight="2">
+        android:layout_weight="1">
 
 
 
@@ -52,7 +52,6 @@
             android:layout_height="wrap_content"
             android:text="Person"
             android:textSize="50sp"
-            android:layout_weight="1"
             />
         <Button
             android:id="@+id/button_place"
@@ -60,7 +59,6 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="50sp"
             android:text="Place"
@@ -75,7 +73,6 @@
             android:text="Workspace"
             android:textSize="50sp"
             android:layout_marginBottom="0dp"
-            android:layout_weight="1"
             />
     </LinearLayout>
 
