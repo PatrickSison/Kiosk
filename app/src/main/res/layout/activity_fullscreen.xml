@@ -7,19 +7,30 @@
     android:id="@+id/fullscreen_content"
     tools:context="com.patrick.a434.kiosk8.FullscreenActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        >
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.03">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find:"
+            android:text="45°F"
             android:textColor="#ffffff"
             android:textSize="30sp"
             android:layout_marginStart="20dp"
-            android:layout_weight="1"/>
+            android:id="@+id/weather" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_below="@+id/weather"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp"
+            />
         <Button
             android:id="@+id/information"
             android:layout_width="wrap_content"
@@ -27,38 +38,47 @@
             android:layout_marginRight="20dp"
             android:layout_height="wrap_content"
             android:text="Information"
-            android:layout_weight="0"
-            android:layout_marginTop="0dp"
-            />
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
 
-    </LinearLayout>
 
-    <LinearLayout android:layout_width="match_parent"
+    <RelativeLayout android:layout_width="match_parent"
         android:id="@+id/big_buttons"
         android:layout_height="0dp"
         android:fitsSystemWindows="true"
         android:orientation="vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_weight="1">
-
-
+        android:layout_weight="0.56">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find:"
+            android:textColor="#ffffff"
+            android:background="#c8102e"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_above="@+id/button_person"
+            android:layout_alignStart="@+id/button_person" />
 
         <Button
             android:id="@+id/button_person"
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:background="#ffffff"
             android:layout_height="wrap_content"
             android:text="Person"
-            android:textSize="50sp"
+            android:layout_above="@+id/button_place"
+            android:layout_centerVertical="true"
+            android:textSize="48sp"
             />
         <Button
             android:id="@+id/button_place"
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="48sp"
+            android:layout_marginBottom="50sp"
+            android:layout_centerVertical="true"
             android:layout_height="wrap_content"
             android:textSize="50sp"
             android:text="Place"
@@ -69,11 +89,13 @@
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:background="#ffffff"
             android:layout_height="wrap_content"
             android:text="Workspace"
-            android:textSize="50sp"
+            android:layout_below="@+id/button_place"
+            android:textSize="48sp"
             android:layout_marginBottom="0dp"
             />
-    </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>
