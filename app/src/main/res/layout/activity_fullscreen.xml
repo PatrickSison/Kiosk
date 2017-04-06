@@ -17,11 +17,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="56°F"
+            android:drawableEnd="@drawable/ic_device_brightness_high"
             android:textColor="#ffffff"
             android:textSize="30sp"
             android:layout_marginStart="20dp"
             android:id="@+id/weather" />
-        <TextView
+        <TextClock
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="12:34 PM"
@@ -38,6 +39,7 @@
             android:layout_marginRight="20dp"
             android:layout_height="wrap_content"
             android:text="Information"
+            android:drawableEnd="@drawable/ic_communication_live_help"
             android:layout_alignParentEnd="true" />
     </RelativeLayout>
 
@@ -69,7 +71,9 @@
             android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:text="Person"
+            android:textAlignment="center"
             android:layout_above="@+id/button_place"
+            android:drawableEnd="@drawable/ic_action_account_circle"
             android:layout_centerVertical="true"
             android:textSize="48sp"
             />
@@ -83,6 +87,7 @@
             android:layout_centerVertical="true"
             android:layout_height="wrap_content"
             android:textSize="48sp"
+            android:drawableEnd="@drawable/ic_communication_location_on"
             android:background="#c8102e"
             android:textColor="#ffffff"
             android:text="Place"
@@ -100,6 +105,7 @@
             android:layout_marginBottom="0dp"
             android:background="#c8102e"
             android:textColor="#ffffff"
+            android:drawableEnd="@drawable/ic_social_group"
             />
     </RelativeLayout>
 

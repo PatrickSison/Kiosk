@@ -13,26 +13,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.content.Intent;
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- */
+
+
 public class FullscreenActivity extends AppCompatActivity {
-    /**
-     * Whether or not the system UI should be auto-hidden after
-     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
-     */
-
-    /**
-     * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
-     * user interaction before hiding the system UI.
-     */
-
-
-    /**
-     * Some older devices needs a small delay between UI widget updates
-     * and a change of the status and navigation bar.
-     */
 
 
     private View mContentView;
@@ -60,7 +43,7 @@ public class FullscreenActivity extends AppCompatActivity {
         mPerson.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                Intent intent = new Intent(FullscreenActivity.this, Person.class);
                 startActivity(intent);
             }
         });
@@ -68,7 +51,7 @@ public class FullscreenActivity extends AppCompatActivity {
         mPlace.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                Intent intent = new Intent(FullscreenActivity.this, Place.class);
                 startActivity(intent);
             }
         });
@@ -76,7 +59,7 @@ public class FullscreenActivity extends AppCompatActivity {
         mWorkspace.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FullscreenActivity.this, Informational.class);
+                Intent intent = new Intent(FullscreenActivity.this, Workspace.class);
                 startActivity(intent);
             }
         });

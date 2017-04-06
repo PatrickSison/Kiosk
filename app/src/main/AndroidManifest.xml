@@ -13,9 +13,8 @@
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme"
             android:screenOrientation="portrait"
-            >
+            android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,8 +25,35 @@
             android:name=".Informational"
             android:label="@string/title_activity_informational"
             android:parentActivityName=".FullscreenActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patrick.a434.kiosk8.FullscreenActivity" />
+        </activity>
+        <activity
+            android:name=".Person"
+            android:label="@string/title_activity_person"
+            android:parentActivityName=".FullscreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patrick.a434.kiosk8.FullscreenActivity" />
+        </activity>
+        <activity
+            android:name=".Place"
+            android:label="@string/title_activity_place"
+            android:parentActivityName=".FullscreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patrick.a434.kiosk8.FullscreenActivity" />
+        </activity>
+        <activity
+            android:name=".Workspace"
+            android:label="@string/title_activity_workspace"
+            android:parentActivityName=".FullscreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.patrick.a434.kiosk8.FullscreenActivity" />
