@@ -1,0 +1,9 @@
+This is an apk which runs on an Android Touch Screen device (phone or tablet)
+
+Version Supported: Android 4.4.X or higher
+This program is intended for use on a Tablet
+
+You will need to enable installation of programs from outside sources in settings.
+To install, you will need to transfer APK to your device's local storage, and then open the APK file in your device's file explorer.
+
+Also contextually for the kiosk, the screen will not set to sleep (in settings) and will have power, volume, and navigation buttons physically blocked off from user.

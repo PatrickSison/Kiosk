@@ -75,7 +75,7 @@
             android:layout_above="@+id/button_place"
             android:drawableEnd="@drawable/ic_action_account_circle"
             android:layout_centerVertical="true"
-            android:textSize="48sp"
+            android:textSize="44sp"
             />
         <Button
             android:id="@+id/button_place"
@@ -86,7 +86,7 @@
             android:layout_marginBottom="50sp"
             android:layout_centerVertical="true"
             android:layout_height="wrap_content"
-            android:textSize="48sp"
+            android:textSize="44sp"
             android:drawableEnd="@drawable/ic_communication_location_on"
             android:background="#c8102e"
             android:textColor="#ffffff"
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:text="Workspace"
             android:layout_below="@+id/button_place"
-            android:textSize="48sp"
+            android:textSize="44sp"
             android:layout_marginBottom="0dp"
             android:background="#c8102e"
             android:textColor="#ffffff"
