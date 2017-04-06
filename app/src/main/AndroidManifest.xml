@@ -35,6 +35,7 @@
             android:name=".Person"
             android:label="@string/title_activity_person"
             android:parentActivityName=".FullscreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -44,6 +45,7 @@
             android:name=".Place"
             android:label="@string/title_activity_place"
             android:parentActivityName=".FullscreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -53,6 +55,7 @@
             android:name=".Workspace"
             android:label="@string/title_activity_workspace"
             android:parentActivityName=".FullscreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

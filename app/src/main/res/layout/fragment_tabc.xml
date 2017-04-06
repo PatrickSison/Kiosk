@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/ic_large_brendan_iribe_0"
         android:id="@+id/brendanFace"
-        android:layout_marginLeft="30sp"
+        android:layout_marginStart="30sp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +30,7 @@
         android:id="@+id/michael"
         android:layout_marginTop="15sp"
         android:layout_alignTop="@+id/michaelFace"
-        android:layout_toLeftOf="@+id/michaelFace"
+        android:layout_toStartOf="@+id/michaelFace"
     />
 
     <ImageView
@@ -40,8 +40,9 @@
         android:background="@drawable/ic_large_michael_antonov"
         android:layout_below="@+id/brendanFace"
         android:layout_marginTop="30sp"
-        android:layout_marginRight="30sp"
-        android:layout_alignParentRight="true"/>
+        android:layout_marginEnd="30sp"
+        android:layout_marginBottom="30sp"
+        android:layout_alignParentEnd="true"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

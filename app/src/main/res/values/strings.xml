@@ -9,7 +9,12 @@ Bringing together the university\'s top-ranked Department of Computer Science an
 This building houses nationally recognized centers of interdisciplinary research in cybersecurity, computational biology, quantum computing, data science and other fast-growing tech fields. The advances developed here help create a virtuous cycle of innovation, establishing Maryland tech companies and adding to the state\'s economic development.
 Students and faculty alike experiment and create in open work areas and makerspaces filled with natural light. Flexible classrooms promote teamwork and active learning. And welcoming common areas - including an expansive green space along Baltimore Avenue - extend the collaborative environment to the broader community.
 </string>
-    <string name="tab2">215,000 square feet total\n4,000+ people in the building at peak times\n4,3000 square feet of makerspace\n13 computer labs\n8 classrooms\n5 seminar rooms\n20,000 square feet of comunity space\n Architecture by HDR, Inc\nConstruction Manager: Whiting-Turner</string>
+    <string name="tab2">215,000 square feet total\n4,000+ people in the building at peak times\n4,3000 square feet of makerspace\n13 computer labs\n8 classrooms\n5 seminar rooms\n20,000 square feet of comunity space\n Architecture by HDR, Inc\nConstruction Manager: Whiting-Turner
+    \n\nStuff we\'re still going to implement:
+    \nScrollable Person/Place/Workspace
+    \nTwitter and live weather
+    \nAlternate languages
+    \nBetter implementation on tablet specifically (looks messy on phone but it\'s a kiosk)</string>
     <string name="donors">Other donors:\n\nAshok K. Agrawala and Radhika Agrawala\nPeter A. Allen\n John Ylannis Aloimonos and Cornelia Fermuller\nAnonymous\nNat Ayeway\nAisya B Aziz
 \nBen Bederson
 \nJoshua A. Berenhaus
@@ -37,4 +42,28 @@ Students and faculty alike experiment and create in open work areas and makerspa
     <string name="title_activity_person">Find a Person</string>
     <string name="title_activity_place">Find a Place</string>
     <string name="title_activity_workspace">Find a Workspace</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="nelson">Contact: nelson@cs.umd.edu\n
+    Office: Iribe Center 1109\n\n
+    Office Hours:\n
+    \tCMSC420: TuTh 11Am-2PM\n
+    \tCMSC411: By Appointment</string>
+    <string name="meesh">Contact: meesh@cs.umd.edu\n
+    Office: Iribe Center 1203\n\n
+    Office Hours:\n
+    \tCMSC216: MW 12-2PM\n
+    \tCMSC389N: TuTh 1-3PM</string>
+    <string name="golub">Contact: egolub@cs.umd.edu\n
+    Office: Iribe Center 1115\n\n
+    Office Hours:\n
+    \tCMSC434: MW 10AM-12PM\n
+    \tCMSC250: TuTh 12-2PM</string>
+    <string name="makerspace">The Iribe Center has designated a large portion (5300 square feet) of the first floor as a dedicated makerspace: a place for students to collaborate, develop, and build whatever they set their minds to. In the Iribe Center\’s dynamic, collaborative makerspaces, students will use sensors, microcontrollers, 3-D printers, robots, quadcopters and other components to create new hardware and software. Students will have 24/7 keycard access, so these creative workshops will buzz with energy day and night.
+\n\n\nRoom Number: 1201</string>
+    <string name="vrlab">The Iribe Center is equipped with a VR Lab for development on virtual reality games and software. Each workstation comes with 3 desktops and two Oculus headsets, promoting collaborative development and an environment in which students can work with equipment they would not typically have access to.
+\n\n\nRoom number: 1201B</string>
+    <string name="arlab">Going a step behind VR goggles, augmented reality glasses manipulate the world around you. Students will have dedicated labs for working on this new technology to always stay on top of the newest developments in computer science. These spaces will come with desktop workstations and sets of goggles to promote individual or collaborative work
+\n\n\nRoom number: 1201C</string>
+
 </resources>

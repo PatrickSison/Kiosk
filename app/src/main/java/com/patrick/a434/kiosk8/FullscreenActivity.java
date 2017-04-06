@@ -18,9 +18,6 @@ import android.content.Intent;
 public class FullscreenActivity extends AppCompatActivity {
 
 
-    private View mContentView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,8 +25,6 @@ public class FullscreenActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_fullscreen);
 
-
-        mContentView = findViewById(R.id.fullscreen_content);
         final Button mInformation = (Button) findViewById(R.id.information);
       //Listeners
         mInformation.setOnClickListener(new OnClickListener() {

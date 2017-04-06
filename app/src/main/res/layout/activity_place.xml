@@ -20,7 +20,70 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_place" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.patrick.a434.kiosk8.place"
+        tools:showIn="@layout/activity_place">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#c8102e"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_1"
+                android:background="#c8102e"
+                android:textColor="#ffffff"
+                android:text="Ground Floor"
+                android:textAlignment="textStart"
+                android:textSize="16sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_2"
+                android:background="#c8102e"
+                android:textColor="#ffffff"
+                android:text="Floor 1"
+                android:textAlignment="textStart"
+                android:textSize="16sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_3"
+                android:background="#c8102e"
+                android:textColor="#ffffff"
+                android:text="Floor 2"
+                android:textAlignment="textStart"
+                android:textSize="16sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_4"
+                android:background="#c8102e"
+                android:textColor="#ffffff"
+                android:text="Room 2103"
+                android:textAlignment="textStart"
+                android:textSize="10sp"/>
+        </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/picture"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>
