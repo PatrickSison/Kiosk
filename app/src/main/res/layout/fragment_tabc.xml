@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_large_brendan_iribe_0"
+        android:id="@+id/brendanFace"
+        android:layout_marginLeft="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brendan Iribe"
+        android:id="@+id/brendan"
+        android:layout_marginTop="15sp"
+        android:layout_toEndOf="@+id/brendanFace"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Michael Antonov"
+        android:id="@+id/michael"
+        android:layout_marginTop="15sp"
+        android:layout_alignTop="@+id/michaelFace"
+        android:layout_toLeftOf="@+id/michaelFace"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/michaelFace"
+        android:background="@drawable/ic_large_michael_antonov"
+        android:layout_below="@+id/brendanFace"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/michaelFace"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="@string/donors"/>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

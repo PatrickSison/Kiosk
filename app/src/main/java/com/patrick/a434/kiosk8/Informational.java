@@ -90,9 +90,28 @@ public class Informational extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_informational, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.tab1));
+            Bundle args = this.getArguments();
+            int tab = args.getInt(ARG_SECTION_NUMBER);
+            View rootView;
+            switch (tab){
+                case 1:
+                    rootView = inflater.inflate(R.layout.fragment_taba, container, false);
+                    TextView textView1 = (TextView) rootView.findViewById(R.id.main_content);
+                    textView1.setText(getString(R.string.tab1));
+                    break;
+                case 2:
+                    rootView = inflater.inflate(R.layout.fragment_tabb, container, false);
+                    TextView textView2 = (TextView) rootView.findViewById(R.id.main_content);
+                    textView2.setText(getString(R.string.tab2));
+                    break;
+                case 3:
+                    rootView = inflater.inflate(R.layout.fragment_tabc, container, false);
+                    break;
+                default:
+                    rootView = inflater.inflate(R.layout.fragment_informational, container, false);
+                    TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+                    textView.setText("Uh oh! Looks like something went wrong! Please let Team Kiosk 8 (tm) know!");
+            }
             return rootView;
         }
     }
@@ -126,7 +145,7 @@ public class Informational extends AppCompatActivity {
                 case 0:
                     return "About the Iribe Center";
                 case 1:
-                    return "Fun Facts";
+                    return "Trivia";
                 case 2:
                     return "Donors";
             }
